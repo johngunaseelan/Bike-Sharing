@@ -59,7 +59,14 @@
 <H4>Preliminary Analysis</H4>
 
   Preliminary analysis was performed by analysing the various dependent variables and their relationship with the dependent 
-  variables. Below are the findings.
+  variables. 
+  
+  The temprature and shares have a linear relationship as shown below.
+  
+  <img src = "../Meta/TempVsBikeShares.png"/>
+  
+  
+  Below are the findings.
   
   <ol>
 <li> Most of the users are registered regular users.</li>
