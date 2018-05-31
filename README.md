@@ -120,14 +120,11 @@ bike shares.
 
 A 5 fold cross validation was performed.
 
-The Total bike share model was successful with a train r2 score of **0.79** and test r2 score of **0.67** and the 
-mean squared error of **10670**
+The Total bike share model was successful with a train r2 score of **0.79** and test r2 score of **0.67**.
 
-The Total bike share model was successful with a train r2 score of **0.78** and test r2 score of **0.67** and the mean squared error 
-of **7364**
+The Total bike share model was successful with a train r2 score of **0.78** and test r2 score of **0.67**.
 
-The Total bike share model was successful with a train r2 score of **0.62** and test r2 score of **0.56** and the mean squared error 
-of **1156**
+The Total bike share model was successful with a train r2 score of **0.62** and test r2 score of **0.56**.
 
 <H3>Conclusion</H3>
 
