@@ -59,7 +59,32 @@
 <H4>Preliminary Analysis</H4>
 
   Preliminary analysis was performed by analysing the various dependent variables and their relationship with the dependent 
-  variables. Below are the findings.
+  variables. 
+  
+  Below are some plots that highlight the relationships between the features and the dependent variable.
+  
+  <img src = "../master/Meta/Distribution.png"/>
+  
+  <img src = "../master/Meta/TempVsBikeShares.png"/>
+  
+  <img src = "../master/Meta/WindSpeedVsBikeShares.png"/>
+  
+  <img src = "../master/Meta/HumidityVsBikeShares.png"/>
+  
+  <img src = "../master/Meta/YearVsShares.png"/>
+  
+  <img src = "../master/Meta/SeasonVsShares.png"/>
+  
+  <img src = "../master/Meta/MonthVsShares.png"/>
+  
+  <img src = "../master/Meta/HourVsShares.png"/>
+  
+  <img src = "../master/Meta/HolidayVsBikeShares.png"/>
+  
+  <img src = "../master/Meta/WeekDayVsBikeShares.png"/>
+  
+  
+  Below are the findings.
   
   <ol>
 <li> Most of the users are registered regular users.</li>
@@ -95,22 +120,20 @@ bike shares.
 
 A 5 fold cross validation was performed.
 
-The Total bike share model was successful with a train r2 score of **0.79** and test r2 score of **0.67** and the 
-mean squared error of **10670**
+The Total bike share model was successful with a train r2 score of **0.79** and test r2 score of **0.67**.
 
-The Total bike share model was successful with a train r2 score of **0.78** and test r2 score of **0.67** and the mean squared error 
-of **7364**
+The Total bike share model was successful with a train r2 score of **0.78** and test r2 score of **0.67**.
 
-The Total bike share model was successful with a train r2 score of **0.62** and test r2 score of **0.56** and the mean squared error 
-of **1156**
+The Total bike share model was successful with a train r2 score of **0.62** and test r2 score of **0.56**.
 
 <H3>Conclusion</H3>
 
-The modern cities need to find innovative ecofriendly ways to get around the problems like polution, traffic and shrinking 
-public spaces. The bike sharing idea is a convinient, cheap and ecofriendly solution for some of the problems. With the help of
-data science we can help the companies involved in these ideas to understand the users better and therefore help them to 
-create better business models to benefit all the stake holders.
+The temperature, humidity, hour of the day and weather are most influential when it comes to bike shares. Though not much can be done by any business about these factors better accessories may help the business overcome these problems and increase the user base to a certain extent.
 
-From the above data, we can see that the casual users and tourists seem not to embrace the idea yet. The company has to reach out
-to this population through better marketing strategies which will make the company more profitable and the users will be 
-benefited in return.
+The good news is that there is a significant increase in popularity and adoption in the year of 2012 than in 2011. This suggests that the business is doing great and reaching out to the user base. The down side is that it is the registered users that are growing significantly and not the casual users. The holidays and weekend is witnessing lesser users than weekdays. These are the areas the company should focus on. As washington D.C is also one of the most visited places by the tourists attracting the casual or tourist population matters a lot. This alone has a potential to increase the business many folds. The marketing campaigns must target these user groups.
+
+Also, sub populations within the registered and casual population can be identified and the analysis can be performed to get more accurate results. The sub population may include groups like office-goers, tourists, school students etc. This will help in planning the marketing strategy better.
+
+The modern cities need to find innovative ecofriendly ways to get around the problems like polution, traffic and shrinking 
+public spaces. The bike sharing idea is a convinient, cheap and ecofriendly solution for some of the problems. With the help of data science we can help the companies involved in these ideas to understand the users better and therefore help them to 
+create better business models to benefit all the stake holders.
